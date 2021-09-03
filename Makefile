@@ -15,7 +15,7 @@ clean_sandbox:
 	rm -rf ./sandbox/repo
 	rm -rf ./sandbox/recovered
 
-install: clean release
+install: release
 	sudo cp ./target/release/reels /usr/bin/reels
 
 unit:
