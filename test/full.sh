@@ -1,6 +1,6 @@
 #!/bin/sh
 
-BIN_PATH='./target/debug/mybackup'
+BIN_PATH='./target/debug/reels'
 REPO_PATH='./sandbox/repo'
 RUST_LOG=${log_level}
 
