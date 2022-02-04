@@ -10,6 +10,7 @@ release:
 
 clean:
 	rm -rf ./target
+	rm -rf ./sandbox
 
 clean_sandbox:
 	rm -rf ./sandbox/repo
